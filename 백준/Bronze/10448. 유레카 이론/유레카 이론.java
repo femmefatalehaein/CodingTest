@@ -34,12 +34,8 @@ class Main{
 		for(int i=0; i<T; i++) {
 			
 			boolean ans = isEurekaNumber(triNum,num[i]);
-			if(ans) {
-				System.out.println(1);
-			}
-			else {
-				System.out.println(0);
-			}
+            System.out.println(ans? "1":"0");
+		
 		}
 			
 	}
